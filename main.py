@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import langchain
 from htmlTemplates import css,bot_template,user_template,url,aiLogoUrl
 
-
+cohere_api_key="gf0VDS934ffUjm9XYGR7WBDyqVL9RPWI6CINzLje"
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
